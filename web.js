@@ -1,7 +1,7 @@
 var express = require('express');
 
 var app = express.createServer(express.logger());
-
+var fs = require('fs');
 //try {
 //  var index_data = fs.readFileSync('index.html')
 //} catch (err) {
